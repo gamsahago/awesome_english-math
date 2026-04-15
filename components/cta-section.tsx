@@ -44,7 +44,14 @@ export function CTASection() {
             </div>
             <div className="text-center">
               <div className="text-sm text-muted-foreground mb-1">Blog</div>
-              <div className="text-xl font-bold text-foreground">blog.naver.com/pdienglish</div>
+              <Link
+                href="https://blog.naver.com/pdienglish"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xl font-bold text-primary hover:text-primary/80 underline underline-offset-4 break-all"
+              >
+                blog.naver.com/pdienglish
+              </Link>
             </div>
           </div>
         </div>

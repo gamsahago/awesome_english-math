@@ -13,7 +13,7 @@ const features = [
   {
     icon: Users,
     title: "Small Class",
-    description: "최대 8명의 소규모 반 편성으로 학생 개개인에게 집중합니다.",
+    description: "최대 10명의 소규모 반 편성으로 학생 개개인에게 집중합니다.",
     highlight: "Max 8",
   },
   {

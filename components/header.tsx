@@ -33,12 +33,12 @@ export function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden lg:flex items-center gap-5 xl:gap-8">
             {navItems.map((item) => (
               <Link
                 key={item.label}
                 href={item.href}
-                className="text-muted-foreground hover:text-primary transition-colors font-medium"
+                className="text-muted-foreground hover:text-primary transition-colors font-medium whitespace-nowrap"
               >
                 {item.label}
               </Link>
@@ -46,7 +46,7 @@ export function Header() {
           </nav>
 
           {/* CTA Button */}
-          <div className="hidden md:block">
+          <div className="hidden lg:block">
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground px-6">
               Free Consultation
             </Button>
