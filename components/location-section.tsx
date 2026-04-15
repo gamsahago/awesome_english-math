@@ -14,7 +14,11 @@ export function LocationSection() {
             <span className="text-sm font-medium text-primary">Location</span>
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-balance">
-            Visit <span className="text-primary">Awesome 어썸영어수학전문학원</span>
+            Visit{" "}
+            <span className="text-primary">
+              <span className="block md:inline">Awesome</span>
+              <span className="block md:inline md:ml-1">어썸영어수학전문학원</span>
+            </span>
           </h2>
         </div>
 
